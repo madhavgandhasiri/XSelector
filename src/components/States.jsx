@@ -143,9 +143,9 @@ function States() {
       {selectedCountry && selectedState && selectedCity ? (
         <p style={{ fontWeight: "bold" }}>
           You selected{" "}
-          <span style={{ fontSize: "25px" }}>{selectedCountry}</span>,{" "}
+          <span style={{ fontSize: "25px" }}>{selectedCity}</span>,{" "}
           <span style={{ color: "grey", fontSize: "20px" }}>
-            {selectedState}, {selectedCity}
+            {selectedState}, {selectedCountry}
           </span>
         </p>
       ) : null}
